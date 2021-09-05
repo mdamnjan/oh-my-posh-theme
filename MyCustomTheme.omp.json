@@ -1,0 +1,88 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "final_space": true,
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "python",
+          "style": "diamond",
+          "leading_diamond": "\uE0B6",
+          "trailing_diamond": "\uE0B4",
+          "foreground": "#ffffff",
+          "background": "#16C60C",
+          "properties": {
+            "prefix": "(",
+            "postfix": ")",
+            "display_virtual_env": true,
+            "display_version": false,
+            "display_error": true,
+            "display_mode": "environment"
+          }
+        },
+        {
+          "type": "session",
+          "style": "diamond",
+          "leading_diamond": "\uE0B6",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#906cff",
+          "properties": {
+            "prefix": "༼ʘ̚ل͜ʘ̚༽ ",
+            "display_host": false
+          }
+        },
+        {
+          "type": "path",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#fd2792",
+          "properties": {
+            "postfix": " ʕ•ᴥ•ʔ",
+            "style": "full"
+          }
+        },
+        {
+          "type": "git",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#52e64a",
+          "properties": {
+            "display_stash_count": true,
+            "display_upstream_icon": true,
+            "status_colors_enabled": false,
+            "branch_icon": "",
+            "display_status": false,
+            "prefix": " \u279C (",
+            "postfix": ") "
+          }
+        },
+        {
+          "type": "node",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#86BBD8",
+          "properties": {
+            "prefix": " \uE718 "
+          }
+        },
+        {
+          "type": "time",
+          "style": "diamond",
+          "trailing_diamond": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#54bbb2",
+          "properties": {
+            "prefix": " ಠ_ಠ ",
+            "time_format": "15:04"
+          }
+        }
+      ]
+    }
+  ]
+}
